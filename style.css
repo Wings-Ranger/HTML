@@ -1,0 +1,98 @@
+/*.weathersymbol {
+    /*  background: aquamarine;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: absolute;
+    right: 14%;
+    top: 15%;
+    mix-blend-mode: multiply; 
+} */
+.weathersymbol {
+    position: absolute;
+    right: 10.95%;
+    top: 15%;
+    display: flex; /* Aligns the icon and text side-by-side */
+    align-items: center;
+    gap: 8px; /* Space between the cloud and the number */
+}
+
+.weather-icon {
+    font-size: 20px; /* Makes the sun/cloud bigger */
+}
+
+.weather-temp {
+    font-size: 14px;
+    font-family: Arial, sans-serif; /* Keeps the text clean */
+    font-weight: bold;
+    color: #444444; /* Dark grey */
+}
+.weather-condition{
+    font-size: 14px;
+    font-family: Arial, sans-serif; /* Keeps the text clean */
+    font-weight: bold;
+    color: #444444; /* Dark grey */
+}
+.child{
+    background:coral;
+    width: 200px;
+    height: 200px;
+}
+.greeting {
+    color: #f0f0f0; /* Makes "Welcome" the off-white color */
+    font-size: 32px;
+    margin: 0;
+    position: absolute;
+    right: 4.5%;
+    top: 20.8%;
+}
+/*.Folder_Image {
+    width: 100px;  Sets the width 
+    height: 50px
+    border-radius: 8px;  Rounds the corners 
+    display: block;  Helps with alignment 
+}
+.The_Messengers {
+    position: absolute;
+    top: 50%;
+}
+*/
+/* --- THE INVISIBLE CARTON --- */
+.folder-grid {
+    position: absolute;
+    top: 95%; /* Pushes the whole group down to the lower part of the screen */
+    right: 55%; /* Pushes the whole group to the right side */
+    display: flex; /* This is the magic word that puts them in a row! */
+    flex-direction: column;
+    gap: 50px; /* This puts exactly 50px of empty space between each folder */
+}
+
+/* --- THE INDIVIDUAL FOLDERS --- */
+.folder-group {
+    text-align: center;
+    cursor: pointer;
+}
+
+.Folder_Image {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.folder-text {
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.highlight-name {
+    color: #00e5ff; /* Makes "Layla" the Animus cyan */
+    margin: 0;
+}
+/*body {
+    background: lightgray;
+}  */ 

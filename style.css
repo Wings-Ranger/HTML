@@ -1,49 +1,0 @@
-.weathersymbol {
-    position: absolute;
-    right: 10.95%;
-    top: 15%;
-    display: flex; /* Aligns the icon and text side-by-side */
-    align-items: center;
-    gap: 8px; /* Space between the cloud and the number */
-}
-.weather-icon {
-    font-size: 20px; /* Makes the sun/cloud bigger */
-}
-.weather-temp {
-    font-size: 14px;
-    font-family: Arial, sans-serif; /* Keeps the text clean */
-    font-weight: bold;
-    color: #444444; /* Dark grey */}
-.weather-condition{
-    font-size: 14px;
-    font-family: Arial, sans-serif; /* Keeps the text clean */
-    font-weight: bold;
-    color: #444444; /* Dark grey */}
-.child{
-    background:coral;
-    width: 200px;
-    height: 200px;}
-.greeting {
-color: #f0f0f0; /* Makes "Welcome" the off-white color */
-    font-size: 32px;
-    margin: 0;
-    position: absolute;
-    right: 4.5%;
-    top: 20.8%;}
-/* --- THE INDIVIDUAL FOLDERS --- */
-.folder-group {
-    text-align: center;
-    cursor: pointer;}
-.Folder_Image {
-    width: 40px;
-    display: block;
-    margin: 0 auto;}
-.folder-text {
-    color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;}
-.highlight-name {
-    color: #00e5ff; /* Makes "Layla" the Animus cyan */
-    margin: 0;} 

@@ -1,16 +1,4 @@
-/*.weathersymbol {
-    /*  background: aquamarine;
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    position: absolute;
-    right: 14%;
-    top: 15%;
-    mix-blend-mode: multiply; 
-} */
-.weathersymbol {
+.weathersymbol {
     position: absolute;
     right: 10.95%;
     top: 15%;

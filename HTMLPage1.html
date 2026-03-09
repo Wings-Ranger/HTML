@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>   
+    <style>
+        body {
+            /* Now the browser is allowed to read it! */
+            background-image: url('background.avif');
+            background-position: center bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;  }
+    </style> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ID_tags.css">
+    <meta charset="utf-8" />
+    <title>
+        Layla Animus Interface (practice)
+    </title>
+</head>
+<body>
+    <!--
+    <div class="weathersymbol">
+        <img src="images\Weather_Cloud.png" alt="Weather Symbol">
+    </div>
+        -->
+    <p class="stan_text" id="welcome">Welcome <span class="highlight-name">Layla</span></p>
+    <div class="weathersymbol">
+        <span class="weather-icon">⛅</span>
+        <span class="weather-condition"> Windy </span>
+        <span class="weather-temp">13°</span>
+         </div> 
+    <p class="small_text" id="logout">
+        Logout
+    </p>
+    
+    <!--  <div class="Folder_Image">
+      <img src="folder.png" class="The_Messengers"/>
+          </div> -->
+        <div class="folder-grid">
+
+            <div class="folder-group" id="Messenger">
+                <img src="folder.png" class="Folder_Image" />
+                <div class="folder-text">The Messengers</div>
+            </div>
+
+            <div class="folder-group" id="staff_eden">
+                <img src="folder.png" class="Folder_Image" />
+                <div class="folder-text">Staff of Eden</div>
+            </div>
+
+            <div class="folder-group" id="SecureShare">
+                <img src="folder.png" class="Folder_Image" />
+                <div class="folder-text">Secure Share</div>
+            </div>
+
+            <div class="folder-group" id="My_Stuff">
+                <img src="folder.png" class="Folder_Image" />
+                <div class="folder-text">My Stuff</div>
+            </div>
+            <div id="lock">
+              <img src="lock_16_F0F0F0.png" />
+            </div>
+            <div id="power">
+                <img src="power_icon_36_89CFF0.png" />
+            </div>
+            <div id="media_button">
+            <img src="playcricle_36_89CFF0.png" />
+            </div>
+            <div class="small_text" id="media">
+             <p>Videos</p>
+            </div>
+            <div id="gridview">
+             <img src="gridview_36_89e9f0.png"/>
+            </div>
+            <div id="files" class="small_text">
+             <p>Files</p>
+            </div>
+        </div>
+</body>
+</html>

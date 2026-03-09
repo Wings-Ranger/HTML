@@ -1,0 +1,70 @@
+body {
+    #welcome {
+        position: absolute;
+        right: 4.5%;
+        top: 20.8%;
+    }
+
+    #Messenger {
+        position: absolute;
+        right: 35%;
+        top: 55%;
+    }
+
+    #staff_eden {
+        position: absolute;
+        right: 20%;
+        top: 55%;
+    }
+
+    #SecureShare {
+        position: absolute;
+        right: 4.2%;
+        top: 55%;
+    }
+
+    #My_Stuff {
+        position: absolute;
+        right: 36.9%;
+        bottom: 23%;
+    }
+
+    #lock {
+        position: absolute;
+        top: 58%;
+        right: 5.795%;
+        display: block;
+    }
+
+    #power {
+        position: absolute;
+        bottom: 9%;
+        left: 5.795%;
+    }
+
+    #logout {
+        position: absolute;
+        bottom: 7.5%;
+        left: 5.5%;
+    }
+    #media_button {
+        position: absolute;
+        left: 5.795%;
+        bottom:23%;
+    }
+    #media{
+     position: absolute;
+     bottom:19%;
+     left:5.5%;
+    }
+    #gridview{
+     position: absolute;
+     bottom:36%;
+     left:5.79%;
+    }
+    #files{
+     position: absolute;
+     bottom:32.3%;
+     left:5.8%;
+    }
+}
